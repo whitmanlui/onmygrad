@@ -1,12 +1,12 @@
 import React from 'react'
 import {
-  createSwitchNavigator,
-  createStackNavigator,
-  createBottomTabNavigator,
+  //createSwitchNavigator,
+  //createStackNavigator,
+  //createBottomTabNavigator,
   createAppContainer,
 } from 'react-navigation';
-//import { createStackNavigator } from 'react-navigation-stack';
-//import { createBottomTabNavigator } from 'react-navigation-tabs';
+import { createStackNavigator } from 'react-navigation-stack';
+import { createBottomTabNavigator } from 'react-navigation-tabs';
 import {QuestionTopTabs, SocietyTopTabs, OpportunityTopTabs, MeTopTabs } from './ScreenNavigator'
 
 import Login from '@screens/Login'

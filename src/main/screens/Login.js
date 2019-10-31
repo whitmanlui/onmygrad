@@ -81,7 +81,7 @@ class LoginScreen extends Component {
                   this.setState({loading: false})
                   this.props.navigation.goBack()
                   if(!appIntro){
-                    this.props.navigation.navigate('SignupImage')
+                    this.props.navigation.navigate('SignupImage', { isUpload: false })
                   }
                 }
                 else

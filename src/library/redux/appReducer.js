@@ -53,7 +53,7 @@ const initialState: State = {
 	industry: {},
 	nationality: {},
 	country: {},
-	ads: {}
+	ads: []
 }
 
 const reqSetAppLang = (lang) => ({type: REQ_SET_LANG, lang})
